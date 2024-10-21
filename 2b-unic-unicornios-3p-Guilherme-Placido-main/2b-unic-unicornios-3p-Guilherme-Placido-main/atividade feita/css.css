@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#cabecalho{
+    background-color: #6d7ff7;
+    color: white;
+    
+}
+#cabecalho > h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 13px;
+    margin-left: 34px;
+}
+
+#cabecalho > h1{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 34px;
+} 
+
+#musica > p{
+     font-family: Arial, Helvetica, sans-serif;      
+     font-size: 14px;          
+}
+#musica >h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+} 
+
+
+#verdade > p{
+    font-family: Arial, Helvetica, sans-serif;      
+     font-size: 14px;
+}
+
+#verdade > h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#imagem-principal {
+    width: 310px;
+    margin-right: 13px;
+    box-sizing: border-box;
+    float: left;
+
+}
+#hoje {
+    background-color: #f8ceff;
+    border: solid  1px #ff56fb;
+    width: 405px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    clear: right;
+    clear: both;
+
+} 
+#hoje > img {
+    width: 112px;
+    height: 112px;
+    box-sizing: border-box;
+   
+    
+}
+#musica {
+    clear:left;
+}  
+#musica > :nth-child(2n){
+    margin-left: 34px;
+}
+#destacar{
+    background-color: #c4caf3;
+    color: #004a79;
+}
+
+#cabecalho{
+    margin-top: 0px;
+}
